@@ -28,7 +28,7 @@ list_of_files = [
     # List of configuration Of Connection files  
     f"{project_name}/configuration/__init__.py",
     f"{project_name}/configuration/aws_connection.py",
-    f"{project_name}/configuration/mongodb_connection.py"
+    f"{project_name}/configuration/mongodb_connection.py",
 
 
     # list of constants 
@@ -76,7 +76,7 @@ list_of_files = [
 
 
     # CICD
-    ".github/workflows/AWS_CICD.yaml"
+    ".github/workflows/AWS_CICD.yaml",
 
 
 
@@ -88,10 +88,8 @@ list_of_files = [
     "demo.py",
     "setup.py",
     "README.md",
-
-
-
-
+    ".gitignore",
+    ".env",
 
 
 ]
@@ -108,3 +106,6 @@ for filepath in list_of_files:
             pass
     else:
         print(f"file is already present at: {filepath}")
+
+
+
